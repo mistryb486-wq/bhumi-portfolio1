@@ -109,6 +109,9 @@ h1 em, .section-title em, .large-copy em { color: var(--accent); font-weight: 40
 .contact-copy .section-title { font-size: clamp(3.1rem, 5.5vw, 5rem); }
 .contact-copy > p:not(.eyebrow) { max-width: 360px; color: #71675c; margin-top: 25px; font-size: .9rem; }
 .email-link { display: inline-block; margin-top: 25px; border-bottom: 1px solid #9e8b79; padding-bottom: 5px; font: 400 1.1rem var(--serif); }
+.social-links { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 20px; }
+.social-links a { display: inline-block; border-bottom: 1px solid #9e8b79; padding-bottom: 4px; color: var(--text); font-size: .76rem; letter-spacing: .5px; transition: color .2s, border-color .2s; }
+.social-links a:hover { color: var(--accent); border-color: var(--accent); }
 .location-line { font-size: .62rem !important; letter-spacing: 1.6px; margin-top: 48px !important; }
 .contact-form { display: flex; flex-direction: column; gap: 9px; background: var(--paper); padding: 32px; border: 1px solid rgba(110,91,73,.18); }
 .contact-form label { font-size: .62rem; font-weight: 700; letter-spacing: 1.3px; margin-top: 9px; }
